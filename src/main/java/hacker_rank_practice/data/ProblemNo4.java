@@ -33,6 +33,8 @@ public class ProblemNo4 {
         scan.nextLine();
         String s = scan.next();
 
+//        *****WAS FAILING BECAUSE NEEDED TO INCLUDE SCAN.NEXTLINE ON LINES 31,33
+
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
