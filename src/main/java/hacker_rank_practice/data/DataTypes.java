@@ -63,7 +63,8 @@ public class DataTypes {
                 System.out.println(sc.next()+" can't be fitted anywhere.");
             }
 
-//            *****CAN USE DATATYPE."MIN_VALUE OR MAX_VALUE" TO SET SPECIFIED BOUNDARIES FOR DATA TYPES. EX: Integer.MIN_VALUE
+//            *****CAN USE DATATYPE."MIN_VALUE OR MAX_VALUE" TO SET SPECIFIED BOUNDARIES FOR DATA TYPES. EX: Integer.MIN_VALUE,
+//            Submission was failing because I was using Math.pow() for Int and Long.
 
         }
 
