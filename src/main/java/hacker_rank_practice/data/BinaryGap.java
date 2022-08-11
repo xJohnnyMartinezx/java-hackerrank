@@ -32,7 +32,7 @@ public class BinaryGap {
 //        ***** vvv CONVERTS int N TO BINARY FOR TESTING ********
 //        ********* Integer.toString(N, radix 2 - alphabet 0, 1 (binary number))
         String binaryString = Integer.toString(N, 2);
-        System.out.println(binaryString + " this is line 32");
+//        System.out.println(binaryString + " this is line 32");
 
 //        boolean started  = false;
 
@@ -65,10 +65,5 @@ public class BinaryGap {
         System.out.println(gb.solution(32));
         System.out.println(gb.solution(1));
         System.out.println(gb.solution(1041));
-
-
-
-
-
     }
 }
