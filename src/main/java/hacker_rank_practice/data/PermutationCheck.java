@@ -51,16 +51,18 @@ public class PermutationCheck {
 
     public int solution(int[] A){
         HashSet<Integer> nums = new HashSet<>();
-        for (int i = 0; i <= A.length; i++) {
+        for (int i = 1; i <= A.length; i++) {
             nums.add(i);
-//            System.out.println("this is line 56 " + i);
+            System.out.println("this is line 56 " + i);
+            System.out.println(nums + " this is line 57");
         }
 //        ***** ENHANCED for each. LOOPING THROUGH ARRAY
         for (int a : A){
-            System.out.println("this is line 58 " + a);
+            System.out.println("this is line 61 " + a);
             if(!nums.contains(a)){
                 return 0;
-            }else {
+            }
+            else {
                 nums.remove(a);
             }
         }
@@ -70,13 +72,12 @@ public class PermutationCheck {
 
     public static void main(String[] args) {
         PermutationCheck pc = new PermutationCheck();
-        System.out.println(pc.solution(new int[] {4,1,3,2}));
-        System.out.println(pc.solution(new int[] {4,1,2}));
-        System.out.println(pc.solution(new int[] {4,1,3}));
-        System.out.println(pc.solution(new int[] {1,3,2}));
-        System.out.println(pc.solution(new int[] {4,1,3,2}));
-        System.out.println(pc.solution(new int[] {1}));
-        System.out.println(pc.solution(new int[] {2}));
+        System.out.println("line 74 " + pc.solution(new int[] {4,1,3,2}));
+        System.out.println("line 75 " + pc.solution(new int[] {5,1,2}));
+        System.out.println("line 76 " + pc.solution(new int[] {4,1,3}));
+        System.out.println("line 77 " + pc.solution(new int[] {1,3,2}));
+        System.out.println("line 78 " + pc.solution(new int[] {1}));
+        System.out.println("line 79 " + pc.solution(new int[] {2}));
 
     }
 }
