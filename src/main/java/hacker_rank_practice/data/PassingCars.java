@@ -18,6 +18,8 @@ public class PassingCars {
 
     public static void main(String[] args) {
         System.out.println(new PassingCars().solution(new int[] {1}));
+        System.out.println(new PassingCars().solution(new int[] {2}));
+        System.out.println(new PassingCars().solution(new int[] {3}));
     }
 
 }
