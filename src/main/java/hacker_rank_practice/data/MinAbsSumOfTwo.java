@@ -26,4 +26,9 @@ public class MinAbsSumOfTwo {
         }
         return minAbsSum;
     }
+
+    public static void main(String[] args) {
+        System.out.println(new MinAbsSumOfTwo().solution(new int[] {-8,4,5,-10,3}));
+
+    }
 }
